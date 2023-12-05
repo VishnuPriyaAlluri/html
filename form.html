@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+           <legend>SignUp Page</legend>
+           <label for="firstname">First Name</label>
+           <input type="text" id="firstname" name="" value="" placeholder="firstname" autofocus="on" maxlength="20">
+           <br><br>
+           <label for="lastname">Last Name</label>
+           <input type="text " id="lastname" name="" value="" placeholder="lastname" maxlength="20">
+           <br><br>
+           <label for="dateofbirth">Date Of Birth</label>
+           <input type="date" id="dateofbirth" name="" readonly required><br><br>
+           <label for="gender">Gender</label><br><br>
+           <input type="radio" id="gender" name="gender">male
+           <input type="radio" id="gender" name="gender">female
+             <br><br>
+           <label for="emailid">Email Id</label>
+           <input type="email" id="emailid" name="" required><br><br>
+           <label for="mobile">Mobile</label>
+           <input type="number" id="mobile" name="" required><br><br>
+           <label for="address">Address</label>
+           <textarea name="" id="address" cols="30" rows="10"></textarea><br><br>
+           <label for="city">City</label>
+           <input type="text" id="city"><br><br>
+           <label for="pincode" required >PinCode</label> 
+           <input type="number" id="pincode" required><br><br>
+           <label for="state">State</label>
+           <input type="text" id="state" name=""><br><br>
+           <label for="country">Country</label>
+           <select name="country" id="country" disabled>
+            <option value="">India</option>
+            <option value="">Pakistan</option>
+            <option value="">Japan</option>
+            <option value="">Germany</option>
+           </select> <br><br>
+           <label for="hobbies">Hobbies</label>
+           <input type="checkbox" id="hobbies" name="">Drawing
+           <input type="checkbox" id="hobbies" name="">Singing
+           <input type="checkbox" id="hobbies" name="">Dancing
+           <input type="checkbox" id="hobbies" name="">Other
+           <input type="text" id="hobbies" name=""> <br><br>
+           <label for="qualification">Qualification</label>
+           <table boarder="2px" cellspacing="2px" cellpadding="2px">
+            <tr>
+              <td>Sl.no</td>
+              <td>Examinations</td>
+              <td>Board</td>
+              <td>Percentage</td>
+              <td>Year Of Pass</td>
+           </tr>
+           <tr>
+           <td>01</td>
+           <td><input type="text"></td>
+           <td><input type="text"></td>
+           <td><input type="text"></td>
+           <td><input type="text"></td>
+           </tr>
+           <tr>
+            <td>02</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+           </tr>
+           <tr>
+            <td>03</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+           </tr>
+           <tr>
+            <td>04</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+           </tr></table> 
+           <br><br>
+           <label for="courses">Courses Applied For</label>
+           <input type="radio" id="courses" name="courses">BCA
+           <input type="radio" id="courses" name="courses">B.com
+           <input type="radio" id="courses" name="courses">BSC
+           <input type="radio" id="courses" name="courses">BA
+           <br><br>
+           <button>Submit</button>
+           <button>Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
