@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+        }
+        #div1{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            background-color: aqua;
+            animation-name: bouncingball1;
+            animation-duration: 3s;
+            position:relative;
+            animation-direction:alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bouncingball1 {
+            0%{
+                top:0px;
+                left:0px;
+                 background-color: lightblue;
+            }
+            100%{
+                  top:500px;
+                  left:0px;
+                  background-color: cadetblue;
+            }
+            
+        }
+        #div2{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            position:relative;
+            animation:bouncingball2 3s linear 0s infinite alternate;
+        }
+        @keyframes bouncingball2{
+            0%{
+                top:0px;
+                left:0px;
+                background-color:lavender;
+            }
+            100%{
+                top:500px;
+                left:0px;
+                background-color:plum;
+            }
+        }
+        #div3{
+            height:200px;
+            width:200px;
+            background-color: brown;
+            border-radius: 50%;
+            position: relative;
+            animation:bouncingball3 3s linear 0s infinite alternate;
+        }
+        @keyframes bouncingball3 {
+            0%{
+                top:0px;
+                left:0px;
+
+            }
+            100%{
+                top:500px;
+                left:0px;
+            }
+            
+        }
+        #div4{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            background-color:cornflowerblue;
+            position:relative;
+            animation:bouncingball4 3s linear 0s infinite reverse;
+            
+
+        }
+        @keyframes bouncingball4{
+            0%{
+                top:0px;
+                left:0px;
+            }
+            100%{
+                top:500px;
+                left:0px;
+            }
+        }
+        #div5{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            position:relative;
+            background-color:powderblue;
+            animation:bouncingball5 3s linear 0s infinite alternate-reverse ;
+        }
+        @keyframes bouncingball5 {
+            0%{
+                top:0px;
+                left:0px;
+            }
+            100%{
+                 top:500px;
+                 left:0px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+</body>
+</html>

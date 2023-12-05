@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background-color: blue;
+            animation-name:colorchange;
+            animation-duration: 5s;
+            position:relative;
+            animation-delay: 2s;
+            /*animation-direction: reverse;*/
+            animation-direction:normal;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        @keyframes colorchange {
+            0%{
+                top:0;
+                left:0;
+                background-color: green;
+            }
+            25%{
+                top:0;
+                left:500px;
+                background-color: red;
+            }
+            50%{
+                top:500px;
+                left:500px;
+                background-color: yellow;
+            }
+            75%{
+                top:500px;
+                left:0;
+                background-color: orange;
+            }
+            100%{
+                top:0px;
+                left:0px;
+                background-color: lightcoral;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

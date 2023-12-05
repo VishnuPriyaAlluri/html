@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+           /* background-color: powderblue;*/
+           background-image: linear-gradient(powderblue,white);
+            height:75px;
+            display:flex;
+            justify-content:space-between;
+            mix-blend-mode:color;
+        }
+        .logoblock{
+                   height: 75px;
+                   width: 300px;
+                   display:flex;
+                   justify-content: space-evenly;
+                   align-items: center;
+
+        }
+        .menublock{
+                height:75px;
+                width:400px;
+                display:flex;
+                justify-content:space-evenly;
+                align-items: center;
+        }
+        .logoblock > img{
+            height:115px;
+            width:241px;
+        }
+        .menublock > h4{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logoblock">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL0AAACOCAMAAABT5/kBAAAAZlBMVEX///8jHyAAAAAZFBXLysocFxhoZ2fW1dUgHB3y8vIFAACfnp6LiooMAwYxLi9ZWVk+Ojv5+fm7urqtrKyCgYHi4uIUDhA1NTXr6+uzsrKRkJBxcHClpKRUU1N7enrc29xGRUUpJyhReoSDAAAFHElEQVR4nO2Ya5OrKBBApRWDGnxFifGV5P//yaXxhcatxMzdmrq1fb5kBgGPLTSg4xAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAE8f/i3ke/rfA1VQNQ/7bEt1QPYJD/tsW3dCETEPy2xZfkwNjfO3ASxcKu+m2LL6lSCX+tvFN2SfQXDvrqUkcn/RsE+s+ij+7WtSxA1vWXovVFUzdb6p2iou8jb7fldOvbuShWVQ5y8gGR7el+6wBCCfBYsqZnLq6yaIIliWlqGs4XCvx3mvVVBNiZxKJyqmE6O81Pm1+xTohV7IgdwGMhQwS4T1DmT6bCecH18GpYWBEtdWZirj/YM8bT+cpZ6qpjS+8BYuhM95xOwY25zmqTfdaAO1eJv4q/95x6YGK6nZaDqTMPXYUqlxZ9+IH9/amwGaJ7VdfTjn0H5lZKcfwRX6ySQafYK8Jt56czt4Dz3KJ8ivf2ga//5KxpL22vf5lMshf7s3mHMmn81MQjtiL0ITnsyDO57NQGe8Hngkiy9/YnLphgt2zuYVS27O/MvJS8yoKyNlWOr5MPd0fe9ZdhPtizcHoZ1dDijf1FX1DNWNyCnrvR1h5DL+JxsqK+UEflg71xs9qojfZuMia68WW9sUcbmF5g1fR9f9naC25VCVIcXnMy+pBTuGtvpWRjr7tW4zR+KDO739hHGHt/Ks+QjX1lBsu0smcFKHV4d5vLXXurBtq7ncvkMJq0r0iv4p39Dd3CvsycNYs99svjRcTv++Zo0vzMHm76xYJJCY1ibu27b2etSUwQ65V2lUkWezMzkoO6n9lbITP2nh7HUKBVLMSzTN7a62UXO+IyZNfOWkcX+1ZXkI3zI7x9+82sBU/HUrDKzEaosw/sM39caoXgAN30Av6sfbmbc5TV62Dv+IqpFlODgDL4wN4J6hDUtHrLaR/wZ+0da3ewILi9SzP2+sftAj1Yw975yF77t8mVK8lNPFj1X9j7u0OHi3n6j/ZO6uoBpUPPPaf6zF6TeW0x7NbGhXRj7zs/Y3+nwFzWZmt7XZHrzOPqDcvn9kiVo76bbuwxp6rH8pz6dtv0+p7qyXf1+bTJnOwrnfPFMKHX9kLMnRV79kMXgm3scZ8tltRc48b/dlj/vB985QdreyfCCc5RYrEvVwsmPiBTuCXIorZtL3OEYr1le2Zr+8w0nQZo1uCDH9/ie2xv3rJwuvdsX+IEN8N3sa+wbI52bmKMdQNzhprtpXiNvYNb83m5KiV2dHyLPK4r23H/mJ9ussdTCY+rlb1pLNQF45qdcHzzoaHeDensNA7kfkkvlr2ZcWFhXlwZu/Y9DxDAzsiHl5yjN+Q6nLje2vae3sczIZtIn0Jck1uGd4YZRY++27285701Riz7IMGhGHbR5XK+qtU9j3CDl7FjHaUWe+d+vwcb+/HNKTmcABmMQ6EyRzblPuMnN2b969nKE+ZEKN1hTRgic5x62CZzCeFwVpHJskXGU/kmKra901ivToA/zeD7YziTmdVQQDOWr861+XNZbDgUX35KCnrgQgHr6yKFkHOIrQ9q5ovIxr7TRZN9dmEgubbkCsD6mFX2AK4YymU9lburLyKnRMdrqCLa49l+ok2v/jg6+kda21Eoz3V9XieDoK3res6HTpY3j+v1mia3dfSqukux3M+X8qhe93Yqhqb5z77hff/khpfPbWOv/1L+QVOCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIPb4B9QHRDiUFmXbAAAAAElFTkSuQmCC
+            " alt="apple music">
+        </div>
+        <div class="menublock">
+            <h4>Home</h4>
+            <h4>About</h4>
+            <h4>Login</h4>
+            <h4>Signup</h4>
+        </div>
+    </nav>
+</body>
+</html>
