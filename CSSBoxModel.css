@@ -1,0 +1,32 @@
+h1{
+    border: 2px solid red;
+
+
+   /*padding-left: 20px;
+   padding-top: 30px;
+   padding-bottom: 40px;
+   padding-right: 50px;*/
+
+   /*padding:50px;*/
+
+   /*padding: 20px 30px 40px 50px;*/
+
+   /*border-width: 5px;
+   border-color: black;
+   border-style: dashed;*/
+
+   /*margin-inline-start: 30px;*/
+
+   /*margin: 20px 30px 40px 50px;*/
+}
+*{
+    border:2px solid red;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+   
+
+   
+
