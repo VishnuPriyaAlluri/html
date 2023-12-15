@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        } */
+        /* #box1{
+            height: 200px;
+            width: 200px;
+            background-color: powderblue;
+            transition-duration: 5s;
+            /* transition-delay: 2s;
+            transition-property:all;
+         } */
+        
+        /* #box1:hover{
+            background-color: goldenrod;
+            height: 500px;
+            width: 500px;
+            /* border-radius: 50%; 
+        }*/
+        .containers{
+            height: 100px;
+            width: 100px;
+            background-color: deeppink;
+            margin: 10px;
+            transition-duration: 3s;
+        }
+        #box1:hover{
+            transition-timing-function: linear;
+            background-color: aqua;
+            width: 500px;
+        }
+        #box2:hover{
+            transition-timing-function: ease;
+            background-color: goldenrod;
+            width: 500px;
+        }
+        #box3:hover{
+            transition-timing-function:ease-in;
+            background-color: green;
+            width: 500px;
+        }
+        #box4:hover{
+            transition-timing-function:ease-out;
+            background-color:chocolate;
+            width: 500px;
+        }
+        #box5:hover{
+            transition-timing-function:ease-in-out;
+            background-color: maroon;
+            width: 500px;
+        }
+        #box6:hover{
+            transition-timing-function:cubic-bezier();
+            background-color: rgba(191, 255, 0, 0.171);
+            width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="containers" id="box1"></div>
+    <div class="containers" id="box2"></div>
+    <div class="containers" id="box3"></div>
+    <div class="containers" id="box4"></div>
+    <div class="containers" id="box5"></div>
+    <div class="containers" id="box6"></div>
+</body>
+</html>
+
+
+

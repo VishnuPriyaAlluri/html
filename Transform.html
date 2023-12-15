@@ -5,32 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            height:200px;
-            width:200px;
-            background-color: aquamarine;
-           /* transform:translate(50px,30px);*/
-          /* transform:translate(20px);*/
-        /*  transform:translate(30px);*/
-         /* transform:scale(2,1);*/
-         /*transform:scaleX(4);*/
-         /*transform:scale(3);*/
-         /*transform:skew(20deg,25deg);*/
-         transform:skewX(25deg);
-        /* transform:skewY(35deg);*/
-        /*transform:rotate(35deg);*/
-        /*transform:rotateX(20deg);*/
-        /*transform:rotate(35deg);*/
-
-
-    
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
         }
-        /*div:hover{
-            transform:translateX(100px)
-        }*/
+        div{
+            height:250px;
+            width:250px;
+            border:2px solid black;
+            background-color: aqua;
+            /* transform: translate(200px); */
+            /* transform: translateX(100px); */
+            /* transform: translateY(50px); */
+
+
+            /* transform: scale(1,2); */
+            /* transform: scaleX(3); */
+            /* transform: scaleY(2); */
+
+            /* transform: skew(50deg,30deg); */
+            /* transform: skewX(75deg); */
+            /* transform: skewY(190deg); */
+
+            /* transform: rotate(35deg); */
+            /* transform: rotateX(85deg); */
+            /* transform: rotateY(115deg); */
+        }
+        div:hover{
+            background-color: pink;
+            transform: translate(200px);
+            transform: scale(2);
+            transform: skew(200deg);
+        }
     </style>
 </head>
 <body>
-    <div><h1>hello</h1></div>
+    <div>
+
+    </div>
 </body>
 </html>
